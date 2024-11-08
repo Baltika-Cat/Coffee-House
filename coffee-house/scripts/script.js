@@ -1,4 +1,4 @@
-import products from './products.json' assert {type: "json"};
+import products from './products.json' with {type: "json"};
 
 const menuPositions = [...document.querySelectorAll('.menuMenuPosition')];
 const background = document.querySelector('.background');
